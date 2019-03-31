@@ -1,0 +1,3 @@
+*\.py[oc]
+\.credentials
+__pycache__
