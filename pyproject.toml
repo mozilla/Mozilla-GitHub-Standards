@@ -2,13 +2,12 @@
 name = "Mozilla-GitHub-Requirements"
 version = "0.1.0"
 description = "Support scripts to increase compliance with Mozilla's GitHub requirements"
-authors = ["Your Name <you@example.com>"]
+authors = ["Hal Wine <hwine@mozilla.com>"]
 license = "MPL-2.0"
 
 [tool.poetry.dependencies]
 python = "^3.6"
 jsonstreams = "^0.4.1"
-0x-web3 = "^4.8"
 PyYAML = "^5.1"
 "backports.functools_lru_cache" = "^1.5"
 backoff = "^1.8"

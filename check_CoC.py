@@ -217,8 +217,9 @@ class CoCRepo:
         if not self.fork_repo:
             #   Corner case - same upstream repo name (append user?) (Change name
             #   to hash of org/repo (to avoid length restrictions))
-            fork_hash = hashlib.pbkdf2_hmac('sha256', self.repo.full_name.lower(), b'salt', 100000)
-            fork_name = binascii.hexlify(fork_hash)
+            fork_hash = hashlib.pbkdf2_hmac('sha256',
+                    self.repo.full_name.lower().encode('UTF-8'), b'salt', 100000)
+            fork_name = binascii.hexlify(fork_hash).decode('UTF-8')
             my_login = gh.me().login
             try:
                 fork_repo = gh.repository(my_login, fork_name)

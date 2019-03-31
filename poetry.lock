@@ -1,43 +1,10 @@
 [[package]]
 category = "main"
-description = "Web3.py"
-name = "0x-web3"
-optional = false
-python-versions = ">=3.5.3,<4"
-version = "4.8.2.1"
-
-[package.dependencies]
-cytoolz = ">=0.9.0,<1.0.0"
-eth-abi = ">=1.2.0,<2.0.0"
-eth-account = ">=0.2.1,<0.4.0"
-eth-hash = ">=0.2.0,<1.0.0"
-eth-utils = ">=1.2.0,<2.0.0"
-hexbytes = ">=0.1.0,<1.0.0"
-lru-dict = ">=1.1.6,<2.0.0"
-pypiwin32 = ">=223"
-requests = ">=2.16.0,<3.0.0"
-toolz = ">=0.9.0,<1.0.0"
-web3 = "4.8.2"
-websockets = ">=6.0.0,<7.0.0"
-
-[[package]]
-category = "main"
 description = "Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP"
 name = "asn1crypto"
 optional = false
 python-versions = "*"
 version = "0.24.0"
-
-[[package]]
-category = "main"
-description = "A dict with attribute-style access"
-name = "attrdict"
-optional = false
-python-versions = "*"
-version = "2.0.1"
-
-[package.dependencies]
-six = "*"
 
 [[package]]
 category = "main"
@@ -97,114 +64,6 @@ six = ">=1.4.1"
 
 [[package]]
 category = "main"
-description = "Cython implementation of Toolz: High performance functional utilities"
-name = "cytoolz"
-optional = false
-python-versions = "*"
-version = "0.9.0.1"
-
-[package.dependencies]
-toolz = ">=0.8.0"
-
-[[package]]
-category = "main"
-description = "Ethereum ABI Utils"
-name = "eth-abi"
-optional = false
-python-versions = "*"
-version = "1.3.0"
-
-[package.dependencies]
-eth-typing = ">=2.0.0,<3.0.0"
-eth-utils = ">=1.2.0,<2.0.0"
-parsimonious = ">=0.8.0,<0.9.0"
-
-[[package]]
-category = "main"
-description = "eth-account: Sign Ethereum transactions and messages with local private keys"
-name = "eth-account"
-optional = false
-python-versions = ">=3.5, <4"
-version = "0.3.0"
-
-[package.dependencies]
-attrdict = ">=2.0.0,<3"
-eth-keyfile = ">=0.5.0,<0.6.0"
-eth-keys = ">=0.2.0b3,<0.3.0"
-eth-rlp = ">=0.1.2,<1"
-eth-utils = ">=1.0.2,<2"
-hexbytes = ">=0.1.0,<1"
-
-[[package]]
-category = "main"
-description = "eth-hash: The Ethereum hashing function, keccak256, sometimes (erroneously) called sha3"
-name = "eth-hash"
-optional = false
-python-versions = ">=3.5, <4"
-version = "0.2.0"
-
-[[package]]
-category = "main"
-description = "A library for handling the encrypted keyfiles used to store ethereum private keys."
-name = "eth-keyfile"
-optional = false
-python-versions = "*"
-version = "0.5.1"
-
-[package.dependencies]
-cytoolz = ">=0.9.0,<1.0.0"
-eth-keys = ">=0.1.0-beta.4,<1.0.0"
-eth-utils = ">=1.0.0-beta.1,<2.0.0"
-pycryptodome = ">=3.4.7,<4.0.0"
-
-[[package]]
-category = "main"
-description = "Common API for Ethereum key operations."
-name = "eth-keys"
-optional = false
-python-versions = "*"
-version = "0.2.1"
-
-[package.dependencies]
-eth-utils = ">=1.3.0,<2.0.0"
-
-[[package]]
-category = "main"
-description = "eth-rlp: RLP definitions for common Ethereum objects in Python"
-name = "eth-rlp"
-optional = false
-python-versions = ">=3.5, <4"
-version = "0.1.2"
-
-[package.dependencies]
-eth-utils = ">=1.0.1,<2"
-hexbytes = ">=0.1.0,<1"
-rlp = ">=0.6.0,<2"
-
-[[package]]
-category = "main"
-description = "eth-typing: Common type annotations for ethereum python packages"
-name = "eth-typing"
-optional = false
-python-versions = ">=3.5, <4"
-version = "2.1.0"
-
-[[package]]
-category = "main"
-description = "Common utility functions for ethereum codebases."
-name = "eth-utils"
-optional = false
-python-versions = ">=3.5,!=3.5.2,<4"
-version = "1.4.1"
-
-[package.dependencies]
-cytoolz = ">=0.8.2,<1.0.0"
-eth-hash = ">=0.1.0,<1.0.0"
-eth-typing = ">=1.0.0,<3.0.0"
-toolz = ">0.8.2,<1"
-
-[[package]]
-category = "main"
 description = "Python wrapper for the GitHub API(http://developer.github.com/v3)"
 name = "github3.py"
 optional = false
@@ -216,17 +75,6 @@ jwcrypto = ">=0.5.0"
 python-dateutil = ">=2.6.0"
 requests = ">=2.18"
 uritemplate = ">=3.0.0"
-
-[[package]]
-category = "main"
-description = "hexbytes: Python `bytes` subclass that decodes hex, with a readable console output"
-name = "hexbytes"
-optional = false
-python-versions = "*"
-version = "0.1.0"
-
-[package.dependencies]
-eth-utils = ">=1.0.1,<2.0.0"
 
 [[package]]
 category = "main"
@@ -259,25 +107,6 @@ version = "0.6.0"
 cryptography = ">=1.5"
 
 [[package]]
-category = "main"
-description = "An Dict like LRU container."
-name = "lru-dict"
-optional = false
-python-versions = "*"
-version = "1.1.6"
-
-[[package]]
-category = "main"
-description = "(Soon to be) the fastest pure-Python PEG parser I could muster"
-name = "parsimonious"
-optional = false
-python-versions = "*"
-version = "0.8.1"
-
-[package.dependencies]
-six = ">=1.9.0"
-
-[[package]]
 category = "dev"
 description = "A full-screen, console-based Python debugger"
 name = "pudb"
@@ -298,32 +127,12 @@ python-versions = "*"
 version = "2.19"
 
 [[package]]
-category = "main"
-description = "Cryptographic library for Python"
-name = "pycryptodome"
-optional = false
-python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
-version = "3.8.0"
-
-[[package]]
 category = "dev"
 description = "Pygments is a syntax highlighting package written in Python."
 name = "pygments"
 optional = false
 python-versions = "*"
 version = "2.3.1"
-
-[[package]]
-category = "main"
-description = ""
-marker = "platform_system == \"Windows\""
-name = "pypiwin32"
-optional = false
-python-versions = "*"
-version = "223"
-
-[package.dependencies]
-pywin32 = ">=223"
 
 [[package]]
 category = "main"
@@ -335,15 +144,6 @@ version = "2.8.0"
 
 [package.dependencies]
 six = ">=1.5"
-
-[[package]]
-category = "main"
-description = "Python for Window Extensions"
-marker = "platform_system == \"Windows\""
-name = "pywin32"
-optional = false
-python-versions = "*"
-version = "224"
 
 [[package]]
 category = "main"
@@ -369,30 +169,11 @@ urllib3 = ">=1.21.1,<1.25"
 
 [[package]]
 category = "main"
-description = "A package for Recursive Length Prefix encoding and decoding"
-name = "rlp"
-optional = false
-python-versions = "*"
-version = "1.1.0"
-
-[package.dependencies]
-eth-utils = ">=1.0.2,<2"
-
-[[package]]
-category = "main"
 description = "Python 2 and 3 compatibility utilities"
 name = "six"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*"
 version = "1.12.0"
-
-[[package]]
-category = "main"
-description = "List processing tools and functional utilities"
-name = "toolz"
-optional = false
-python-versions = "*"
-version = "0.9.0"
 
 [[package]]
 category = "main"
@@ -418,79 +199,29 @@ optional = false
 python-versions = "*"
 version = "2.0.1"
 
-[[package]]
-category = "main"
-description = "Web3.py"
-name = "web3"
-optional = false
-python-versions = ">=3.5.3,<4"
-version = "4.8.2"
-
-[package.dependencies]
-cytoolz = ">=0.9.0,<1.0.0"
-eth-abi = ">=1.2.0,<2.0.0"
-eth-account = ">=0.2.1,<0.4.0"
-eth-hash = ">=0.2.0,<1.0.0"
-eth-utils = ">=1.2.0,<2.0.0"
-hexbytes = ">=0.1.0,<1.0.0"
-lru-dict = ">=1.1.6,<2.0.0"
-pypiwin32 = ">=223"
-requests = ">=2.16.0,<3.0.0"
-toolz = ">=0.9.0,<1.0.0"
-websockets = ">=6.0.0,<7.0.0"
-
-[[package]]
-category = "main"
-description = "An implementation of the WebSocket Protocol (RFC 6455 & 7692)"
-name = "websockets"
-optional = false
-python-versions = ">=3.4"
-version = "6.0"
-
 [metadata]
-content-hash = "72a2c1a829beda8d97802514594656ceba3b96074e613d3af1c2eac05f1af740"
+content-hash = "3263b04861397a8af91c36aa2e8bf1215cb1d146bcb83b979d66ff1045839cdd"
 python-versions = "^3.6"
 
 [metadata.hashes]
-0x-web3 = ["cc1154252525072856320214a5ebfee935a794054a7d41ee1d5e1e0acdd37ae2", "f78c95809ead54b67c1bfb76886b364f174b93536ebac7a7756cc6d28c7d6a10"]
 asn1crypto = ["2f1adbb7546ed199e3c90ef23ec95c5cf3585bac7d11fb7eb562a3fe89c64e87", "9d5c20441baf0cb60a4ac34cc447c6c189024b6b4c6cd7877034f4965c464e49"]
-attrdict = ["35c90698b55c683946091177177a9e9c0713a0860f0e049febd72649ccd77b70", "9432e3498c74ff7e1b20b3d93b45d766b71cbffa90923496f82c4ae38b92be34"]
 backoff = ["c7187f15339e775aec926dc6e5e42f8a3ad7d3c2b9a6ecae7b535000f70cd838", "d340bb6f36d025c04214b8925112d8456970e5f28dda46e4f1133bf5c622cb0a"]
 "backports.functools-lru-cache" = ["9d98697f088eb1b0fa451391f91afb5e3ebde16bbdb272819fd091151fda4f1a", "f0b0e4eba956de51238e17573b7087e852dfe9854afd2e9c873f73fc0ca0a6dd"]
 certifi = ["59b7658e26ca9c7339e00f8f4636cdfe59d34fa37b9b04f6f9e9926b3cece1a5", "b26104d6835d1f5e49452a26eb2ff87fe7090b89dfcaee5ea2212697e1e1d7ae"]
 cffi = ["00b97afa72c233495560a0793cdc86c2571721b4271c0667addc83c417f3d90f", "0ba1b0c90f2124459f6966a10c03794082a2f3985cd699d7d63c4a8dae113e11", "0bffb69da295a4fc3349f2ec7cbe16b8ba057b0a593a92cbe8396e535244ee9d", "21469a2b1082088d11ccd79dd84157ba42d940064abbfa59cf5f024c19cf4891", "2e4812f7fa984bf1ab253a40f1f4391b604f7fc424a3e21f7de542a7f8f7aedf", "2eac2cdd07b9049dd4e68449b90d3ef1adc7c759463af5beb53a84f1db62e36c", "2f9089979d7456c74d21303c7851f158833d48fb265876923edcb2d0194104ed", "3dd13feff00bddb0bd2d650cdb7338f815c1789a91a6f68fdc00e5c5ed40329b", "4065c32b52f4b142f417af6f33a5024edc1336aa845b9d5a8d86071f6fcaac5a", "51a4ba1256e9003a3acf508e3b4f4661bebd015b8180cc31849da222426ef585", "59888faac06403767c0cf8cfb3f4a777b2939b1fbd9f729299b5384f097f05ea", "59c87886640574d8b14910840327f5cd15954e26ed0bbd4e7cef95fa5aef218f", "610fc7d6db6c56a244c2701575f6851461753c60f73f2de89c79bbf1cc807f33", "70aeadeecb281ea901bf4230c6222af0248c41044d6f57401a614ea59d96d145", "71e1296d5e66c59cd2c0f2d72dc476d42afe02aeddc833d8e05630a0551dad7a", "8fc7a49b440ea752cfdf1d51a586fd08d395ff7a5d555dc69e84b1939f7ddee3", "9b5c2afd2d6e3771d516045a6cfa11a8da9a60e3d128746a7fe9ab36dfe7221f", "9c759051ebcb244d9d55ee791259ddd158188d15adee3c152502d3b69005e6bd", "b4d1011fec5ec12aa7cc10c05a2f2f12dfa0adfe958e56ae38dc140614035804", "b4f1d6332339ecc61275bebd1f7b674098a66fea11a00c84d1c58851e618dc0d", "c030cda3dc8e62b814831faa4eb93dd9a46498af8cd1d5c178c2de856972fd92", "c2e1f2012e56d61390c0e668c20c4fb0ae667c44d6f6a2eeea5d7148dcd3df9f", "c37c77d6562074452120fc6c02ad86ec928f5710fbc435a181d69334b4de1d84", "c8149780c60f8fd02752d0429246088c6c04e234b895c4a42e1ea9b4de8d27fb", "cbeeef1dc3c4299bd746b774f019de9e4672f7cc666c777cd5b409f0b746dac7", "e113878a446c6228669144ae8a56e268c91b7f1fafae927adc4879d9849e0ea7", "e21162bf941b85c0cda08224dade5def9360f53b09f9f259adb85fc7dd0e7b35", "fb6934ef4744becbda3143d30c6604718871495a5e36c408431bf33d9c146889"]
 chardet = ["84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae", "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"]
 cryptography = ["066f815f1fe46020877c5983a7e747ae140f517f1b09030ec098503575265ce1", "210210d9df0afba9e000636e97810117dc55b7157c903a55716bb73e3ae07705", "26c821cbeb683facb966045e2064303029d572a87ee69ca5a1bf54bf55f93ca6", "2afb83308dc5c5255149ff7d3fb9964f7c9ee3d59b603ec18ccf5b0a8852e2b1", "2db34e5c45988f36f7a08a7ab2b69638994a8923853dec2d4af121f689c66dc8", "409c4653e0f719fa78febcb71ac417076ae5e20160aec7270c91d009837b9151", "45a4f4cf4f4e6a55c8128f8b76b4c057027b27d4c67e3fe157fa02f27e37830d", "48eab46ef38faf1031e58dfcc9c3e71756a1108f4c9c966150b605d4a1a7f659", "6b9e0ae298ab20d371fc26e2129fd683cfc0cfde4d157c6341722de645146537", "6c4778afe50f413707f604828c1ad1ff81fadf6c110cb669579dea7e2e98a75e", "8c33fb99025d353c9520141f8bc989c2134a1f76bac6369cea060812f5b5c2bb", "9873a1760a274b620a135054b756f9f218fa61ca030e42df31b409f0fb738b6c", "9b069768c627f3f5623b1cbd3248c5e7e92aec62f4c98827059eed7053138cc9", "9e4ce27a507e4886efbd3c32d120db5089b906979a4debf1d5939ec01b9dd6c5", "acb424eaca214cb08735f1a744eceb97d014de6530c1ea23beb86d9c6f13c2ad", "c8181c7d77388fe26ab8418bb088b1a1ef5fde058c6926790c8a0a3d94075a4a", "d4afbb0840f489b60f5a580a41a1b9c3622e08ecb5eec8614d4fb4cd914c4460", "d9ed28030797c00f4bc43c86bf819266c76a5ea61d006cd4078a93ebf7da6bfd", "e603aa7bb52e4e8ed4119a58a03b60323918467ef209e6ff9db3ac382e5cf2c6"]
-cytoolz = ["84cc06fa40aa310f2df79dd440fc5f84c3e20f01f9f7783fc9c38d0a11ba00e5"]
-eth-abi = ["04e64f739c6f6cb6aded3e7c8924cc49ffbb088ac53ad1786765747853f167b1", "2a898568fd85b8f162b89890695f7e08d7a53dec70ecdb6bea20c544241d8621"]
-eth-account = ["3b5b1735db5736c9bb59786256edb0e18ea912f0a3d835611abb0266aa71c0d1", "63d782e7d0db455d13b5d6f18df790895072fde49ed00f1c176ae11dfa87251b"]
-eth-hash = ["1b9cb34dd3cd99c85c2bd6a1420ceae39a2eee8bf080efd264bcda8be3edecc8", "499dc02d098f69856d1a6dd005529c16174157d4fb2a9fe20c41f69e39f8f176"]
-eth-keyfile = ["70d734af17efdf929a90bb95375f43522be4ed80c3b9e0a8bca575fb11cd1159", "939540efb503380bc30d926833e6a12b22c6750de80feef3720d79e5a79de47d"]
-eth-keys = ["18f2b30fe54ad9ff8a4517459012dfff1608f558d5ff24646c50e19fa5ec9183", "993e61f146a9b228b8762082230afdf516c1ac3f6bbcdd2a09a4823ff8106d49"]
-eth-rlp = ["05d8456981d85e16a9afa57f2f2c3356af5d1c49499cc8512cfcdc034b90dde5", "a94744c207ea731a7266bd0894179dc6e51a6a8965316000c8e823b5d7e07694"]
-eth-typing = ["164d5fb164636b62a5729557953edfadc91e4f1b055cd591cace24913a917764", "901fcda2ab7cb4d92314484ce4730b6e02f1fccd97d3e20f72a9bdb531624c45"]
-eth-utils = ["76f7797d3ed67821dbc92931f5b7e6b4bccdd5d3407b316bd1df882f2b55c28f", "f11f046fef99e63f2cfe7663531c9a13ed0be6c01879f1a6151dc104eeebdfcf"]
 "github3.py" = ["15a115c18f7bfcf934dfef7ab103844eb9f620c586bad65967708926da47cbda", "50833b5da35546b8cced0e8d7ff4c50a9afc2c8e46cc4d07dc4b66d26467c708"]
-hexbytes = ["27cc227ae95fc20d44325ac0329a0293d656a05230da079650705030c7d7a819", "67e5608cb4a14d0a4ced058e595bb1f70c207ef2b5219fdc82af10e54bcf38de"]
 idna = ["c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407", "ea8b7f6188e6fa117537c3df7da9fc686d485087abf6ac197f9c46432f7e4a3c"]
 jsonstreams = ["875c03c0a93e1e23a7eaa7a7a89e36290ff29613286bce563dad37fb7061addd", "ed67c2a58a9757214baaf67675db2e504d6c9bc590da86c2e8a5805ad8bc845c"]
 jwcrypto = ["a87ac0922d09d9a65011f76d99849f1fbad3d95439c7452cebf4ab0871c2b665", "e6c517d8998956e531f0a1c158b2f324c29a532a9c4b677bc30b3be14d60ad4d"]
-lru-dict = ["365457660e3d05b76f1aba3e0f7fedbfcd6528e97c5115a351ddd0db488354cc"]
-parsimonious = ["3add338892d580e0cb3b1a39e4a1b427ff9f687858fdd61097053742391a9f6b"]
 pudb = ["8d8b974641b7a7a2a721af01c9dce5eac8e05a2ceebc2680725ba8eef1ca876e"]
 pycparser = ["a988718abfad80b6b157acce7bf130a30876d27603738ac39f140993246b25b3"]
-pycryptodome = ["088ff55d55d39f694b60cbd317493d0000145c6bc99aa9e90a73cbd5a2bd42bc", "0b51742caff03fc78530bca3912a524cb13113cb68a9c2ba1e456f1f3005c059", "15a02ffebc3c69461ca98db53853cb074cc5ec8d79d5ec7585e8158757a5f629", "1a2e6ab1d76418fb316e8811b916cd39e72280314cedbcb66c0bee6ec5d448ae", "1be38efb39dbaff52e3e46c2d7af2bd3e4b2bb650a9feea9cba4f80cb3cd0c7a", "22c067adf74aa5015c594ea876271b577b98cd5edd972a69f7996bb54d1e5fb1", "23404c7de4dfc875fca64025e7fb73dfbbdf14ac17f6de85ea72beca15501f30", "239cc0385248735537d137ea1723df093c93a0c5b6163a452361fe6fb757ebda", "2c016c01c2f89a9833316d4b208b2b57c9c77ad1a3374156985ad1c0ea4429a7", "349bf0f023254ed853178b42fd83be3d75b0d7751b5f0f90670bc6fef6449ecb", "3db05498d6435d88154a68a2b8440afcb9ea52e5478aa45d2906993a86c10427", "52cb45959d14a12cfe38c31ec32ec13a693bf15069ec24c3292cc6279829b409", "5d55f34d7925573a6037b5f4211aebf5f832876113745063f335087ff083082d", "6574f87186bdc787047f0b0e4c9ee32dbfc958ee6d376cf18042874a618739ec", "67dedb3f0f84021f61955ca1f2229a1ee4ebfd0a7bfda2827094aec60e50391a", "7473ed4b44f6615ecadb9b0af6aa7b74bffcce5d9e7d41c863622c7423a402a7", "778aab70e4fff39cb220167e3977561feb73807c5a0cda85c01527674009764f", "853a65e8abdc8701de2b0d06d8c9f822a37208cf2ce537f9932280e504aa50de", "b1644f820e31d144fc017c031a1c3967e5c82caa47b1c36499d45b7f7bad09d6", "bab4191f870e07e1882de442c9878c6947b7c2181b37a7dc7394d3c7d0c2302c", "c10ce7d63b420b74be1181d69def5bfd0e5eb19de92ace4650097e5b895d7107", "c6e4bf9d42a108b6679939d7f81bc317a3faa2cbda450ccef99da15fe2160623", "cec840820c3295cc76bcdb2b13c26cb03532bd657a4331bae463672d6ad56c0d", "d2202465cec166c4449ba1f128b89a24f88e306d1c3171b7d91ab8d3826a4d6e", "e76067a1d72b7c9010c906e7086fa69320398c7638d563d9c929f83ac2e7d146", "eef04eb8083f5469ea0a7d11220790ce7ba407597bbac160ec645c95e3552afa", "fbd5f5dd55590c587a9198ba140ee3a662014f9f4903c0d8f0b1273e9ea3ae36", "fe0f3604bb525b9d715a58ca7137a423f0527f826da0d287aa9eb566956e0a0c"]
 pygments = ["5ffada19f6203563680669ee7f53b64dabbeb100eb51b61996085e99c03b284a", "e8218dd399a61674745138520d0d4cf2621d7e032439341bc3f647bff125818d"]
-pypiwin32 = ["67adf399debc1d5d14dffc1ab5acacb800da569754fafdc576b2a039485aa775", "71be40c1fbd28594214ecaecb58e7aa8b708eabfa0125c8a109ebd51edbd776a"]
 python-dateutil = ["7e6584c74aeed623791615e26efd690f29817a27c73085b78e4bad02493df2fb", "c89805f6f4d64db21ed966fda138f8a5ed7a4fdbc1a8ee329ce1b74e3c74da9e"]
-pywin32 = ["22e218832a54ed206452c8f3ca9eff07ef327f8e597569a4c2828be5eaa09a77", "32b37abafbfeddb0fe718008d6aada5a71efa2874f068bee1f9e703983dcc49a", "35451edb44162d2f603b5b18bd427bc88fcbc74849eaa7a7e7cfe0f507e5c0c8", "4eda2e1e50faa706ff8226195b84fbcbd542b08c842a9b15e303589f85bfb41c", "5f265d72588806e134c8e1ede8561739071626ea4cc25c12d526aa7b82416ae5", "6852ceac5fdd7a146b570655c37d9eacd520ed1eaeec051ff41c6fc94243d8bf", "6dbc4219fe45ece6a0cc6baafe0105604fdee551b5e876dc475d3955b77190ec", "9bd07746ce7f2198021a9fa187fa80df7b221ec5e4c234ab6f00ea355a3baf99"]
 pyyaml = ["1adecc22f88d38052fb787d959f003811ca858b799590a5eaa70e63dca50308c", "436bc774ecf7c103814098159fbb84c2715d25980175292c648f2da143909f95", "460a5a4248763f6f37ea225d19d5c205677d8d525f6a83357ca622ed541830c2", "5a22a9c84653debfbf198d02fe592c176ea548cccce47553f35f466e15cf2fd4", "7a5d3f26b89d688db27822343dfa25c599627bc92093e788956372285c6298ad", "9372b04a02080752d9e6f990179a4ab840227c6e2ce15b95e1278456664cf2ba", "a5dcbebee834eaddf3fa7366316b880ff4062e4bcc9787b78c7fbb4a26ff2dd1", "aee5bab92a176e7cd034e57f46e9df9a9862a71f8f37cad167c6fc74c65f5b4e", "c51f642898c0bacd335fc119da60baae0824f2cde95b0330b56c0553439f0673", "c68ea4d3ba1705da1e0d85da6684ac657912679a649e8868bd850d2c299cce13", "e23d0cc5299223dcc37885dae624f382297717e459ea24053709675a976a3e19"]
 requests = ["502a824f31acdacb3a35b6690b5fbf0bc41d63a24a45c4004352b0242707598e", "7bf2a778576d825600030a110f3c0e3e8edc51dfaafe1c146e39a2027784957b"]
-rlp = ["0505fd53278cb4a3ea6baf1b658357ac209bdcdd1b316ac90050c40f669ceacc", "ebe80a03c50e3d6aac47f44ddd45048bb99e411203cd764f5da1330e6d83821c"]
 six = ["3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c", "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"]
-toolz = ["929f0a7ea7f61c178bd951bdae93920515d3fbdbafc8e6caf82d752b9b3b31c9"]
 uritemplate = ["01c69f4fe8ed503b2951bef85d996a9d22434d2431584b5b107b2981ff416fbd", "1b9c467a940ce9fb9f50df819e8ddd14696f89b9a8cc87ac77952ba416e0a8fd", "c02643cebe23fc8adb5e6becffe201185bf06c40bda5c0b4028a93f1527d011d"]
 urllib3 = ["61bf29cada3fc2fbefad4fdf059ea4bd1b4a86d2b6d15e1c7c0b582b9752fe39", "de9529817c93f27c8ccbfead6985011db27bd0ddfcdb2d86f3f663385c6a9c22"]
 urwid = ["644d3e3900867161a2fc9287a9762753d66bd194754679adb26aede559bcccbc"]
-web3 = ["585ee922eb6a97a2843e59e011e0820eef3d7e9830a118fabe84e23a2d5d9bea", "ca9414c2e314b05fc181a9aa9fb9622bed8e6f9c67a4f7a9ad8303868b910006"]
-websockets = ["0e2f7d6567838369af074f0ef4d0b802d19fa1fee135d864acc656ceefa33136", "2a16dac282b2fdae75178d0ed3d5b9bc3258dabfae50196cbb30578d84b6f6a6", "5a1fa6072405648cb5b3688e9ed3b94be683ce4a4e5723e6f5d34859dee495c1", "5c1f55a1274df9d6a37553fef8cff2958515438c58920897675c9bc70f5a0538", "669d1e46f165e0ad152ed8197f7edead22854a6c90419f544e0f234cc9dac6c4", "695e34c4dbea18d09ab2c258994a8bf6a09564e762655408241f6a14592d2908", "6b2e03d69afa8d20253455e67b64de1a82ff8612db105113cccec35d3f8429f0", "79ca7cdda7ad4e3663ea3c43bfa8637fc5d5604c7737f19a8964781abbd1148d", "7fd2dd9a856f72e6ed06f82facfce01d119b88457cd4b47b7ae501e8e11eba9c", "82c0354ac39379d836719a77ee360ef865377aa6fdead87909d50248d0f05f4d", "8f3b956d11c5b301206382726210dc1d3bee1a9ccf7aadf895aaf31f71c3716c", "91ec98640220ae05b34b79ee88abf27f97ef7c61cf525eec57ea8fcea9f7dddb", "952be9540d83dba815569d5cb5f31708801e0bbfc3a8c5aef1890b57ed7e58bf", "99ac266af38ba1b1fe13975aea01ac0e14bb5f3a3200d2c69f05385768b8568e", "9fa122e7adb24232247f8a89f2d9070bf64b7869daf93ac5e19546b409e47e96", "a0873eadc4b8ca93e2e848d490809e0123eea154aa44ecd0109c4d0171869584", "cb998bd4d93af46b8b49ecf5a72c0a98e5cc6d57fdca6527ba78ad89d6606484", "e02e57346f6a68523e3c43bbdf35dde5c440318d1f827208ae455f6a2ace446d", "e79a5a896bcee7fff24a788d72e5c69f13e61369d055f28113e71945a7eb1559", "ee55eb6bcf23ecc975e6b47c127c201b913598f38b6a300075f84eeef2d3baff", "f1414e6cbcea8d22843e7eafdfdfae3dd1aba41d1945f6ca66e4806c07c4f454"]
